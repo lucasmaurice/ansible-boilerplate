@@ -2,3 +2,8 @@
 # EXAMPLE
 # - src: github.repo
 #   name: role.name
+
+# Ping src for 'make ping' test
+- src: thedumbtechguy.ping
+  path: galaxy_roles
+  name: ping
